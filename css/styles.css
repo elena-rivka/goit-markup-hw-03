@@ -208,6 +208,7 @@ body {
 
 /* Футтер */
 .footer-bg {
+    padding: 60px 60px;
     background-color: var(--bg-dark);
 }
 .footer-logo {
@@ -234,6 +235,10 @@ body {
 .footer-contact:active {
     color: var(--accent-color);
 }
+
+/* address {
+    margin-top: 20px;
+} */
 
 /* Стили для portfolio.html */
 /* Секция кнопок */
