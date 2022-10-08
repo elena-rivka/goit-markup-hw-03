@@ -64,7 +64,6 @@ img {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
 }
 
 /* Хєдер */
@@ -142,6 +141,7 @@ img {
 /* Герой */
 .hero {
     text-align: center;
+    padding: 200px 200px;
 }
 
 .hero-bg {
