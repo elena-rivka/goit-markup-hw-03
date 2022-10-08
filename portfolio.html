@@ -22,9 +22,9 @@
   </head>
   <body>
     <!--Шапка-->
-    <header class="page-header">
-      <div class="container">
-        <nav>
+    <header class="header page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
           <a href="./index.html" class="logo link"
             ><span class="logo-accent">Web</span>Studio</a
           >
@@ -55,7 +55,7 @@
       <section class="portfolio">
         <div class="container">
           <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="list">
+          <ul class="buttons list">
             <li><button class="button-second" type="button">Усі</button></li>
             <li>
               <button class="button-second" type="button">Веб-сайти</button>
@@ -70,7 +70,7 @@
           </ul>
           <!-- Картки -->
           <ul class="section-cards list">
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img.jpg"
@@ -84,7 +84,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img2.jpg"
@@ -92,11 +92,15 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="section-names">Постер New Orlean vs Golden Star</h2>
-                <p class="section-content">Дизайн</p>
+                <div class="techno">
+                  <h2 class="section-names">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="section-content">Дизайн</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img3.jpg"
@@ -104,11 +108,13 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="section-names">Ресторан Seafood</h2>
-                <p class="section-content">Додаток</p>
+                <div class="techno">
+                  <h2 class="section-names">Ресторан Seafood</h2>
+                  <p class="section-content">Додаток</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img4.jpg"
@@ -116,11 +122,13 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="section-names">Проєкт Prime</h2>
-                <p class="section-content">Маркетинг</p>
+                <div class="techno">
+                  <h2 class="section-names">Проєкт Prime</h2>
+                  <p class="section-content">Маркетинг</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img5.jpg"
@@ -128,11 +136,13 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="section-names">Проєкт Boxes</h2>
-                <p class="section-content">Додаток</p>
+                <div class="techno">
+                  <h2 class="section-names">Проєкт Boxes</h2>
+                  <p class="section-content">Додаток</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img6.jpg"
@@ -140,11 +150,13 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="section-names">Inspiration has no Borders</h2>
-                <p class="section-content">Веб-сайт</p>
+                <div class="techno">
+                  <h2 class="section-names">Inspiration has no Borders</h2>
+                  <p class="section-content">Веб-сайт</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img7.jpg"
@@ -152,11 +164,13 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="section-names">Видання Limited Edition</h2>
-                <p class="section-content">Дизайн</p>
+                <div class="techno">
+                  <h2 class="section-names">Видання Limited Edition</h2>
+                  <p class="section-content">Дизайн</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img8.jpg"
@@ -164,11 +178,13 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="section-names">Проєкт LAB</h2>
-                <p class="section-content">Маркетинг</p>
+                <div class="techno">
+                  <h2 class="section-names">Проєкт LAB</h2>
+                  <p class="section-content">Маркетинг</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="cards-item">
               <a href="" class="link">
                 <img
                   src="./images/img9.jpg"
@@ -176,8 +192,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="section-names">Growing Business</h2>
-                <p class="section-content">Додаток</p>
+                <div class="techno">
+                  <h2 class="section-names">Growing Business</h2>
+                  <p class="section-content">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -193,7 +211,7 @@
           >
           <address>
             <ul class="list">
-              <li>
+              <li class="footer-nav">
                 <a
                   class="footer-address link"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
@@ -202,12 +220,12 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li>
+              <li class="footer-nav">
                 <a class="footer-contact link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li>
+              <li class="footer-nav">
                 <a class="footer-contact link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >

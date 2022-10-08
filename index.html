@@ -22,9 +22,9 @@
   </head>
   <body>
     <!--Шапка-->
-    <header>
-      <div class="container">
-        <nav>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
           <a href="./index.html" class="logo link"
             ><span class="logo-accent">Web</span>Studio</a
           >
@@ -59,27 +59,27 @@
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
           <ul class="feature-list list">
-            <li>
+            <li class="item">
               <h3 class="title">Увага до деталей</h3>
               <p>
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Пунктуальність</h3>
               <p>
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Планування</h3>
               <p>
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Сучасні технології</h3>
               <p>
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -93,8 +93,8 @@
       <section class="case">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
+          <ul class="img-case list">
+            <li class="item-case">
               <img
                 src="./images/box.jpg"
                 alt="Десктопні додатки"
@@ -102,7 +102,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="item-case">
               <img
                 src="./images/box2.jpg"
                 alt="Мобільні додатки"
@@ -110,7 +110,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="item-case">
               <img
                 src="./images/box3.jpg"
                 alt="Дизайнерські рішення"
@@ -127,45 +127,53 @@
           <div class="container">
             <h2 class="section-title">Наша команда</h2>
             <ul class="team list">
-              <li>
+              <li class="team-item">
                 <img
                   src="./images/ihor.jpg"
                   alt="Ігор Дем'яненко"
                   width="270"
                   height="260"
                 />
-                <h3 class="section-name">Ігор Дем'яненко</h3>
-                <p lang="en" class="section-profession">Product Designer</p>
+                <div class="names-team">
+                  <h3 class="section-name">Ігор Дем'яненко</h3>
+                  <p lang="en" class="section-profession">Product Designer</p>
+                </div>
               </li>
-              <li>
+              <li class="team-item">
                 <img
                   src="./images/olga.jpg"
                   alt="Ольга Рєпіна"
                   width="270"
                   height="260"
                 />
-                <h3 class="section-name">Ольга Рєпіна</h3>
-                <p lang="en" class="section-profession">Frontend Developer</p>
+                <div class="names-team">
+                  <h3 class="section-name">Ольга Рєпіна</h3>
+                  <p lang="en" class="section-profession">Frontend Developer</p>
+                </div>
               </li>
-              <li>
+              <li class="team-item">
                 <img
                   src="./images/mikola.jpg"
                   alt="Микола Тарасов"
                   width="270"
                   height="260"
                 />
-                <h3 class="section-name">Микола Тарасов</h3>
-                <p lang="en" class="section-profession">Marketing</p>
+                <div class="names-team">
+                  <h3 class="section-name">Микола Тарасов</h3>
+                  <p lang="en" class="section-profession">Marketing</p>
+                </div>
               </li>
-              <li>
+              <li class="team-item">
                 <img
                   src="./images/mihailo.jpg"
                   alt="Михайло Єрмаков"
                   width="270"
                   height="260"
                 />
-                <h3 class="section-name">Михайло Єрмаков</h3>
-                <p lang="en" class="section-profession">UI Designer</p>
+                <div class="names-team">
+                  <h3 class="section-name">Михайло Єрмаков</h3>
+                  <p lang="en" class="section-profession">UI Designer</p>
+                </div>
               </li>
             </ul>
           </div>
@@ -181,7 +189,7 @@
           >
           <address class="address-footer">
             <ul class="list">
-              <li>
+              <li class="footer-nav">
                 <a
                   class="footer-address link"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
@@ -190,12 +198,12 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li>
+              <li class="footer-nav">
                 <a class="footer-contact link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li>
+              <li class="footer-nav">
                 <a class="footer-contact link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
